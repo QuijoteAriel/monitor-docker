@@ -33,21 +33,20 @@ Un script ligero en Bash para monitorear el estado de los contenedores Docker en
    
 ## Configuracionde Credenciales 
 
-    ``` 
-    TOKEN="TU_TELEGRAM_TOKEN_AQUI"
-    CHAT_ID="TU_CHAT_ID_AQUI"
-    ```
+    `TOKEN="TU_TELEGRAM_TOKEN_AQUI"`
+    `CHAT_ID="TU_CHAT_ID_AQUI"`
 
 ## Asigna Asigna Permisos
 
-    ``` chmod +x monitor_docker.md ```
+    `chmod +x monitor_docker.md`
 
 ## Automatización con Cron
 
-    ``` crontab -e  ```
+    `crontab -e`
 
-    ``` * * * * * /bin/bash /home/TU_USUARIO/scripts/docker-monitor/ ``` 
-```monitor_docker.sh ```
+    `* * * * * /bin/bash /home/TU_USUARIO/scripts/docker-monitor/`
+	
+	`monitor_docker.sh `
 
 
 ## 📝 Cómo funciona el Script
